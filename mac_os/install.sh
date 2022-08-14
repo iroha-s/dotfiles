@@ -29,4 +29,10 @@ killall SystemUIServer
 # リッチテキストから標準テキストに変更
 defaults write com.apple.TextEdit RichText -int 0
 
+# ---  スクリーンショット  ---
+# スクリーンショットの保存先をデスクトップから変更
+mkdir ~/ScreenShot
+defaults write com.apple.screencapture location ~/ScreenShot/
+killall SystemUIServer
+
 echo "👍 MacOS setting is done!"
