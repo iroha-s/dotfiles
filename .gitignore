@@ -10,7 +10,7 @@
 !/.zshrc
 !/.zshenv
 !/.zfunc/
-/.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
+/.zfunc/** # ディレクトリは管理したいけど中身はいらないときはこんな感じ
 !/.zsh/
 !/.zsh/dircolors
 !/.zsh/rc/
@@ -67,4 +67,4 @@
 !.gitkeep
 
 !/iterm2/
-!/.config/git/ignore
+!/.config/git/
